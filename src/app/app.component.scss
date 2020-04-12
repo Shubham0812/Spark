@@ -1,0 +1,34 @@
+.toolbar {
+  h1 {
+    font-size: 32px;
+    transition: 0.25s ease-in;
+    cursor: pointer;
+  }
+  h2 {
+    font-size: 22px;
+    transition: 0.25s ease-in;
+    cursor: pointer;
+  }
+
+  mat-icon {
+    font-size: 36px;
+    height: 36px;
+    width: 36px;
+    animation-fill-mode: both;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 2;
+    transition: 0.75s ease-in;
+  }
+
+  mat-icon:hover {
+      transform: rotate(360deg);
+}
+
+  h1:hover{
+      transform: scale(1.15);
+  }
+}
+
+mat-toolbar {
+    background: rgba(12, 12, 12, 1.0);
+  }

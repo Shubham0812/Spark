@@ -1,0 +1,42 @@
+.container {
+  background: url("../../../assets/star.jpg");
+  height: 90%;
+  background-position-x: -100px;
+  background-position-y: -110px;
+}
+
+.info {
+  width: 75%;
+  h1 {
+    padding-top: 102px;
+    font-family: "Oswald";
+    font-size: 48px;
+    text-align: center;
+  }
+}
+
+.buttons:first-child {
+  margin-left: 0px !important;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 12%;
+  margin-right: 54px;
+  justify-content: center;
+
+  button {
+    padding: 12px;
+    // background: none;
+    border: 2px solid white;
+    margin-left: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.25s linear;
+  }
+}
+
+button:hover{
+    color: #121212;
+    background: white;
+}
