@@ -7,11 +7,17 @@
 
 .info {
   width: 75%;
+  text-align: center;
   h1 {
     padding-top: 102px;
     font-family: "Oswald";
     font-size: 48px;
-    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  h2{
+    font-size: 32px;
+    padding-top: 32px;
   }
 }
 
@@ -21,8 +27,8 @@
 
 .buttons {
   display: flex;
-  margin-top: 12%;
-  margin-right: 54px;
+  margin-top: 8%;
+  margin-right: 18px;
   justify-content: center;
 
   button {
@@ -39,4 +45,17 @@
 button:hover{
     color: #121212;
     background: white;
+}
+
+
+.small-icon{
+    font-size: 28px;
+    width: 28px;
+    height: 28px;
+    transform: rotate(180deg);
+    margin-bottom: 4px;
+}
+
+.no-rotate{
+    transform: none !important;
 }
