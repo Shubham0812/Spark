@@ -1,27 +1,68 @@
+
+
 # Spark
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+Web Application created using Angular 9.
 
-## Development server
+## Motivation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+I always wanted to develop a page where other people can post their ideas and look for other interesting ideas.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ - Angular 9
+ - Typescript
+ - HTML5 & SCSS
+ 
+ ## Features
+ 
+ - Clean and simple user interface.
+ - Users can easily search for ideas, find information about them and contact the person.
+ - Users can explore different technology domains and submit their own ideas.
 
-## Build
+## Code Example
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+      <div class="container">
+        <div class="info">
+          <h1>
+            Where great Ideas are <span class="mat-primary-text">Discovered</span>
+          </h1>
+          <h2>What <span class="mat-primary-text-lighter">Sparks</span> you?</h2>
+          <div class="buttons">
+            <button class="primary-Typography" mat-button (click) = "routeToCreation()">
+              <div class="flex align-center">
+                I have an Idea
+                <mat-icon class="margin-left-s small-icon">wb_incandescent</mat-icon>
+              </div>
+            </button>
+            <button class="primary-Typography" mat-button>
+              <div class="flex align-center">
+                Look For Ideas
+                <mat-icon class="margin-left-s small-icon no-rotate margin-remove-bottom">search</mat-icon>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
 
-## Running unit tests
+## How to use ?
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Download the zip file or clone the project.
 
-## Running end-to-end tests
+#### Installing
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+ - Run `npm install` to install the necessary dependencies. 
+ - Run `ng serve -o`  in the terminal to run the project.
 
-## Further help
+#### Prerequisites
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- An active internet connection.
+- Node JS.
+- Modern Browser such as Edge, Chrome, Safari, Firefox.
+
+
+## Credits
+
+**©** **Shubham Kumar Singh** | *2020*
+
+
